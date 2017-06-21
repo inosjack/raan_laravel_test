@@ -1,0 +1,20 @@
+{
+  "name": "raan_laravel_test",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Jayant Soni <inos.jay55@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/inosjack/raan_laravel_test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
