@@ -21,3 +21,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'Admin\HotelController@create')->name('hotel.create');
 Route::post('/admin', 'Admin\HotelController@store')->name('hotel.store');
+
+Route::get('/hotel/{id}', 'HotelController@index')->name('hotel');
+Route::post('/comment', 'HotelController@comment')->name('hotel.comment');

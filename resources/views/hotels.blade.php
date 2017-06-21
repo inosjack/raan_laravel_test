@@ -24,7 +24,7 @@
                             <tbody>
                             @foreach($hotels as $hotel)
                                 <tr>
-                                    <th><a>{{ $hotel->name }}</a></th>
+                                    <th><a href="{{ route('hotel',$hotel->id) }}">{{ $hotel->name }}</a></th>
                                     <th>{{ $hotel->owner }}</th>
                                     <th>{{ $hotel->email }}</th>
                                     <th>{{ $hotel->contact }}</th>
