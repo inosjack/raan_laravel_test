@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin', 'Admin\HotelController@create')->name('hotel.create');
+Route::post('/admin', 'Admin\HotelController@store')->name('hotel.store');

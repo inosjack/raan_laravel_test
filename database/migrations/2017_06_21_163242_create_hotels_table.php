@@ -19,7 +19,7 @@ class CreateHotelsTable extends Migration
             $table->string('owner');
             $table->string('email')->unique();
             $table->string('contact')->unique();
-            $table->text('address');
+            $table->text('address')->nullable();
             $table->timestamps();
         });
     }
