@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $hotels =  \App\Hotel::all();
+    return view('hotels')->with(['hotels' => $hotels]);
 });
 
 Auth::routes();
