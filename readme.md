@@ -4,3 +4,9 @@
 *`composer create-project --prefer-dist laravel/laravel blog "5.1.*"`*
 
 *`composer create-project --prefer-dist laravel/laravel blog "5.2.*"`*
+
+
+##### Task 7: in this
+*`User email : john@test.com`*
+
+*`User password : doe`*
